@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $result = $stmt->get_result();
 
+
     if ($result->num_rows === 1) {
 
         // fetches the current row of the result set as an associative array. 
